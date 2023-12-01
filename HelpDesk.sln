@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentacion", "1. Presentacion", "{61F34937-D3B8-4B93-A38D-F8B7087AE8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Object", "2. Business Object", "{ABB41DB8-5448-4EA0-8B81-E21F6F2D1A8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Access Object", "3. Data Access Object", "{1445D256-DD80-484C-874B-56D0C43997EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Data Transfer Object", "4. Data Transfer Object", "{0758A125-E68A-408F-A21E-260D242EDCC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk", "HelpDesk\HelpDesk.csproj", "{15AD5D7C-66EF-4C99-9BF7-3D0F4E0F3D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskBO", "HelpDeskBO\HelpDeskBO.csproj", "{0AFA067B-9817-4B19-AF4C-55DA144AB8DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskDAO", "HelpDeskDAO\HelpDeskDAO.csproj", "{27F5033C-0EC0-4AF4-8097-502D018C7E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskDTO", "HelpDeskDTO\HelpDeskDTO.csproj", "{7F5286A6-8B9F-4EFF-B6C2-08A816FBE8B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15AD5D7C-66EF-4C99-9BF7-3D0F4E0F3D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AD5D7C-66EF-4C99-9BF7-3D0F4E0F3D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AD5D7C-66EF-4C99-9BF7-3D0F4E0F3D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AD5D7C-66EF-4C99-9BF7-3D0F4E0F3D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFA067B-9817-4B19-AF4C-55DA144AB8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFA067B-9817-4B19-AF4C-55DA144AB8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFA067B-9817-4B19-AF4C-55DA144AB8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFA067B-9817-4B19-AF4C-55DA144AB8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F5033C-0EC0-4AF4-8097-502D018C7E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F5033C-0EC0-4AF4-8097-502D018C7E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F5033C-0EC0-4AF4-8097-502D018C7E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F5033C-0EC0-4AF4-8097-502D018C7E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5286A6-8B9F-4EFF-B6C2-08A816FBE8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5286A6-8B9F-4EFF-B6C2-08A816FBE8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5286A6-8B9F-4EFF-B6C2-08A816FBE8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5286A6-8B9F-4EFF-B6C2-08A816FBE8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15AD5D7C-66EF-4C99-9BF7-3D0F4E0F3D59} = {61F34937-D3B8-4B93-A38D-F8B7087AE8D0}
+		{0AFA067B-9817-4B19-AF4C-55DA144AB8DD} = {ABB41DB8-5448-4EA0-8B81-E21F6F2D1A8D}
+		{27F5033C-0EC0-4AF4-8097-502D018C7E6B} = {1445D256-DD80-484C-874B-56D0C43997EC}
+		{7F5286A6-8B9F-4EFF-B6C2-08A816FBE8B3} = {0758A125-E68A-408F-A21E-260D242EDCC1}
+	EndGlobalSection
+EndGlobal
